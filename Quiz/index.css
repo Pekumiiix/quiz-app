@@ -202,6 +202,75 @@ b {
     color: white;
 }
 
+@media screen and (max-width: 1023px) {
+    .rules-ctn {
+        width: 70%;
+        font-size: 20px;
+        height: 325px;
+        margin-left: 15%;
+        margin-top: 20%;
+    }
+
+    .r-btn {
+        font-size: 17px;
+        width: 150px;
+        left: 38%;
+    }
+
+    .quiz-ctn, .score-ctn {
+        width: 70%;
+        height: 500px;
+        margin-left: 15%;
+        margin-top: 25%;
+    }
+
+    .quiz-ctn .par {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .btn {
+        font-size: 17px;
+        height: 50px;
+    }
+
+    .btn, .bottom {
+        margin-left: 5%;
+    }
+
+    .timer, .next {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rules-ctn {
+        width: 74%;
+        height: 350px;
+        margin-left: 13%;
+        margin-top: 25%;
+    }
+
+    .quiz-ctn, .score-ctn {
+        width: 74%;
+        max-height: 500px;
+        margin-left: 13%;
+        margin-top: 17%;
+    }
+
+    .r-btn {
+        left: 33%;
+    }
+
+    .quiz-ctn .par {
+        text-align: center;
+    }
+
+    .btn, .bottom {
+        margin-left: 5%;
+    }
+}
+
 @media screen and (max-width: 468px) {
     .rules-ctn {
         width: 94%;
