@@ -181,7 +181,6 @@ function showQuestion() {
                 nextButton.disabled = false
             }
         })
-        //nextQuestion(answerButton)
     })
      
     //nextQuestion()
