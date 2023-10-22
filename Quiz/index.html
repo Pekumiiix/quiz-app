@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/d2685faf17.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+    <title>Quiz-Master</title>
+</head>
+<body>
+    <nav>
+        <p>Quiz Master</p>
+        <a href=""><i class="fa-brands fa-github fa-2x"></i></a>
+        <!--<i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon fa-2x"></i>-->
+    </nav>
+    <div class="rules-ctn" id="rules">
+        <h2>Rules</h2>
+        <p class="par">1. You'll have only <b>15 seconds</b> to answer each question.</p>
+        <p class="par">2. Once you select an answer it can't be undone.</p>
+        <p class="par">3. Each question carries <b>one</b> mark</p>
+        <button id="rules-btn" class="r-btn">Start now</button>
+    </div>
+    <div class="quiz-ctn" id="quiz">
+        <h2 id="number"></h2>
+        <p class="par" id="question"></p>
+        <div class="button-ctn" id="button-ctn">
+            <!--<button class="btn">hello</button>
+            <button class="btn">hello</button>
+            <button class="btn">hello</button>
+            <button class="btn">hello</button>-->
+        </div>
+        <div class="bottom">
+            <p class="timer">Time Left <b id="timer">01</b></p>
+            <button class="next" id="next">Next ></button>
+        </div>
+    </div>
+    <div class="score-ctn" id="score-ctn">
+        <p class="score-text">Your score is:</p>
+        <p class="score" id="score-text">7 out of 10</p>
+        <button id="play-again">Play again</button>
+    </div>
+</body>
+</html>
